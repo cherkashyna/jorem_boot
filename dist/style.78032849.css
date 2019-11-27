@@ -1,0 +1,239 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/* ----------sec1------------ */
+.line {
+    height: 6px;
+    background-color: #fdbd1f;
+}
+.header {
+    color: #9e8e92;
+    padding-top: 26px;
+}
+.menu {
+    margin-right: 90px;
+}
+.menu__item {
+    margin: 0 28px;
+}
+.menu__item a {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase; 
+    text-decoration: none; 
+    color: #ab6f80;  
+}
+.menu__item li a:hover {
+    background: #fdbd1f;
+    height: 30px; 
+}
+/* ---------------------------------------------- */
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: #ffffff;
+}
+h1 {
+    font-size: 32px;
+    text-align: center;
+    background-color: #ab6f80;
+}
+h2 {
+    font-size: 24px;
+    /* text-align: center; */
+}
+h3{
+    font-size: 24px;
+    color: #ab6f80;
+/* ----------------------------------------------- */
+}
+.dev {
+    background-color: #ab6f80;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.offer__title {
+    font-size: 32px;
+}
+h2.offer__title {
+    font-size: 24px;
+}
+.offer__intro {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+.offer__text {
+    font-size: 16px;
+    font-weight: 400; 
+    color: #fdbd1f;
+    padding-top: 10px;
+}
+/* ------------------------------------------------ */
+.main {
+    background: url(Layer_1.4449dca4.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+.btn-link {
+    color: #ab6f80;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.btn a {
+    text-decoration: none;
+    color: #978489;
+}
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+    color: #ab6f80;
+    text-decoration: none;
+}
+/* ---------------------------------------------- */
+.futures {
+    background-color: #fdbd1f;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.futures h2, .futures .offer__intro  {
+    text-align: center;
+}
+.futures .btn-link {
+    background-color: #ab6f80;
+    color: #ffffff;
+    justify-content: center;
+    width: 140px;
+    margin: 30px 5px 0px 5px;
+}
+/* ------------------------------------------------ */
+.touch {
+    padding: 70px 0px 70px 0px;
+}
+.touch h2 {
+    color: #ab6f80;
+}
+.touch .offer__intro {
+    color: #fdbd1f;
+}
+.touch .offer__text {
+    color: #978489;
+}
+.touch .btn-link {
+    background-color: #fdbd1f;
+    color: #ffffff;
+}
+.touch img {
+    padding-left: 50px;
+}
+/* ------------------------------------------- */
+.works {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px; 
+}
+.works h2 {
+    color: #ab6f80;
+}
+.works .offer__intro {
+    color: #fdbd1f;
+}
+.works .offer__text {
+    color: #978489;
+}
+/* -------------------------------------------- */
+.footer {
+    background-color: #f0f0f0;
+    padding: 30px 0px 30px 0px;
+}
+.footer .offer__text {
+    color: #978489;
+    text-align: center;
+
+
+}
+/* .carousel-control-next-icon  {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: no-repeat 50%/100% 100%;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.carousel-control-prev-icon {
+        background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' …3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: no-repeat 50%/100% 100%;
+    background-color: black;
+    border-radius: 10px;
+} */
+@media screen and (max-width: 1069px) {
+.main {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+}
+@media screen and (max-width: 992px) {
+    .header img {
+        display: block;
+        margin: 0 auto;
+    }
+    nav {
+        padding-bottom: 20px;
+    }
+    .touch {
+        text-align: center;
+    }
+    .touch img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+    .touch .btn-link {
+        width: 50%;
+    }
+    .menu {
+        margin-right: 0px;
+    }
+    .dev {
+        text-align: center;
+    }
+    .dev .btn-link {
+        width: 100%;
+
+    }
+}
+@media screen and (max-width: 650px) {
+    .main {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+@media screen and (max-width: 533px) {
+
+    .menu {
+        flex-direction: column;
+        margin-right: 0px;
+    }
+    .menu__item {
+        text-align: center;
+        margin-bottom: 10px;
+        background-color: #fdbd1f;
+    }
+    .menu__item a {
+        color: #ffffff;
+    }
+}
